@@ -6,13 +6,11 @@ function fetchDataFromAPI(endpoint) {
       }, 1000);
     });
   }
-  
   function fetchData() {
     const apiEndpoint = "https://api.example.com/data";
   
     return fetchDataFromAPI(apiEndpoint);
   }
-  
   // Example usage
   fetchData()
     .then(function (data) {

@@ -1,3 +1,7 @@
+
+//promise-- giving assurence  ---1)keeping the promise successfull 2)else failure
+//example form -- if submitted and database is stored or not.
+//another -- form validation check all details or crt then only submit.
 function isAuthenticated() {
     return Math.random() < 1;
   }
@@ -20,3 +24,13 @@ function isAuthenticated() {
       console.log(message);
     });
     
+   // example 2
+   /*instagram -- network connection lost means it shows could not refresh */
+   //example 3  -- googlr map
+function isvalid()
+
+
+function location(response,){}
+
+
+   location().then().catch()
